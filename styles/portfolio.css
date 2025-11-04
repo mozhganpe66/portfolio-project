@@ -13,14 +13,14 @@ h1{
     font-weight: bold;
     font-size: 96px;
 }
-.about-section{
+.container-content{
    padding: 50px 20px; 
 }
-.about-section h1{
+.container-content h1{
     font-size: 64px;
     line-height: 1;
 }
-.about-section-content{
+.content{
     margin:30px;
 }
 h2{
@@ -29,8 +29,11 @@ h2{
     font-size: 24px;
     color: #272142;
 }
-.about-section h2{
+.container-content h2{
     font-size: 18px;
+}
+.container-content h3{
+    font-size: 24px;
 }
 
 
@@ -75,13 +78,13 @@ h2{
 }
 
 @media (max-width: 1200px){
- .about-section h1{
+ .container-content h1{
     font-size: 40px;
     line-height: 1;
 }
 }
 @media (max-width: 1000px) {
-    .about-section {
+    .container-content {
         padding: 0;
         text-align: center;
     }
