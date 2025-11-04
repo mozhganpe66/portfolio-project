@@ -36,6 +36,10 @@ h2{
     font-size: 24px;
 }
 
+h4 {
+  font-size: 48px;   
+  font-family: "Playfair Display", serif;
+}
 
 .hero-text{
     font-family: "Poppins", sans-serif;
@@ -46,6 +50,10 @@ h2{
 .btn-branding{
     background-color: #6C63FF;
     color: white;
+}
+.btn-branding:hover {
+    color: #6C63FF;
+    border: 1px solid #6C63FF;
 }
 
 .project-text{
@@ -90,10 +98,43 @@ nav a:hover, nav li.active a {
     color:  #6C63FF;
 }
 
+footer {
+    margin: 60px 0;
+}
+footer .contact-box{
+    background-color:  #F9F7FE;
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+footer .email-link{
+   font-size: 24px;
+   text-decoration: none;
+   color: black;
+}
+footer .email-link:hover{
+    color:  #6C63FF;
+}
+footer .social-links a{
+    margin: 0px 20px;
+    color: #6C63FF;
+    background: #F9F7FE;
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+footer .social-links a:hover{
+    color: white;
+    background:#6C63FF;
+}
 @media (max-width: 1100px){
     .container .project-title{
        text-align: center;
        font-size: 40px;
+       
     }
     
 }
