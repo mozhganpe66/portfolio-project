@@ -7,17 +7,20 @@ body{
     background-color: #F9F7FE;
     padding: 160px 20px;
 }
-
+.about-me {
+    font-size: 24px;
+}
 h1{
     font-family: "Playfair Display", serif;
     font-weight: bold;
     font-size: 96px;
 }
+
 .container-content{
    padding: 50px 20px; 
 }
 .container-content h1{
-    font-size: 64px;
+    font-size: 50px;
     line-height: 1;
 }
 .content{
@@ -64,7 +67,7 @@ h4 {
  .container .project-title{
     font-family: "Playfair Display", serif;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 45px;
 
 }
 .btn-branding-outline {
@@ -133,7 +136,7 @@ footer .social-links a:hover{
 @media (max-width: 1100px){
     .container .project-title{
        text-align: center;
-       font-size: 40px;
+       font-size: 35px;
        
     }
     
