@@ -145,6 +145,9 @@ footer .social-links a:hover{
     .hero h1{
         font-size: 40px;
     }
+    h1.text-center.certificates {
+        font-size: 40px;
+    }
 }
 
 @media (max-width: 1200px){
